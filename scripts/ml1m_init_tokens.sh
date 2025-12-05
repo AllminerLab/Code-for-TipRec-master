@@ -1,0 +1,2 @@
+#!/bin/bash
+python ../src/init_token_emb.py --backbone Salesforce/codet5-small --datasets ML1M --data_path ../data/ --prompt_file ../code_style_prompt.txt --tasks content_only --item_indexing independent --sample_prompt 0 --sample_num 0 --batch_size 64 --use_time 1 --use_info_key title,categories
